@@ -114,6 +114,10 @@ section {
     margin-bottom: 20px;
 }
 
+.text-content {
+    max-width: 1000px;
+}
+
 
 .image-content img {
     width: 100%;
@@ -122,4 +126,23 @@ section {
 
 .img-livro {
     max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .img-livro {
+        display: none;
+        justify-content: j;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .pessoal-section .img-livro {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .pessoal-section .img-livro {
+        display: none;
+    }
 }
