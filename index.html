@@ -19,69 +19,109 @@
             </div>
             <nav class="menu">
                 <a href="#inicio">Início</a>
+                <a href="#pessoal">Sobre Mim</a>
                 <a href="ano4.html">4º Ano</a>
                 <a href="ano5.html">5º Ano</a>
-                <a href="#pessoal">Sobre Mim</a>
                 <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
+
     <div class="container">
-        <main class="inicio">
-            <section class="apresentacao" id="inicio">
+        <div class="inicio">
+            <div class="apresentacao" id="inicio">
                 <h1>Seja bem-vindo ao meu portfólio!</h1>
-                <p>Aqui você vai encontrar meus projetos, experiências e aprendizados ao longo dos anos.</p>
+                <p>Aqui você vai encontrar meus projetos, experiências e aprendizados ao longo da graduação em Análise e
+                    Desenvolvimento de Sistemas</p>
                 <a href="#sobre" class="btn">Saiba mais</a>
-            </section>
-        </main>
+            </div>
+            <div class="divisor-imagem"></div>
+            <div>
+                <img src="https://placehold.co/400x400" alt="Foto do autor do portfolio">
+            </div>
+        </div>
 
-        <section class="sobre-mim" id="sobre">
-            <div class="container sobre-section">
-                <div class="text-content">
-                    <h2>O que encontrar aqui?</h2>
-                    <p>Olá, sou João Pedro Chapichi.<br>Sou estudande de Análise e Desenvolvimento de Sistemas na FATEC Jales.<br>Aqui é onde compartilho minhas experiências e aprendizados na Faculdade. Você vai encontrar projetos e resumos de máterias.</p>
-                </div>
-                <div class="image-content">
-                    <!-- Imagem opcional -->
-                    <img src="./img/img-livro-portifolio.png" alt="João Pedro" class="img-livro"/>
+        <section class="sobre-mim" id="pessoal">
+            <div class="container-sobre">
+                <h1 class="titulo-sobre">Quem sou eu?</h1>
+                <div class="conteudo-sobre">
+                    <div class="imagem-sobre">
+                        <img src="https://placehold.co/400x400" alt="João Pedro Chapichi">
+                    </div>
+                    <div class="texto-sobre">
+                        <p>E aí! Me chamo <strong>João Pedro Chapichi</strong>, tenho 18 anos e sou apaixonado por
+                            tecnologia, principalmente programação e desenvolvimento de sistemas.</p>
+                        <p>Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> e gosto de
+                            transformar ideias em códigos que realmente funcionam. 🚀</p>
+                        <p class="p-botaocima">Também tenho interesse por áreas como <strong>jogos, mobile, desktop e web</strong>, e estou
+                            sempre aprendendo algo novo pra ficar afiado no que faço.</p>
+                        <a href="#contato" class="btn">Fala Comigo</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <hr class="section-divider" />
-
-        <section class="curso" id="curso">
-            <div class="container curso-section">
-                <div class="text-content">
-                    <h2>Sobre o Curso</h2>
-                    <p>Atualmente curso Desenvolvimento de Sistemas, onde estou aprendendo sobre lógica de programação,
-                        banco de dados, front-end, back-end e muito mais!</p>
-                    <h3>Confira abaixo a grade curricular de cada ano.</h3>
-                    <a href="grade-ano4.html" class="btn">Grade 4º Ano</a>
-                    <a href="grade-ano5.html" class="btn">Grade 5º Ano</a>
+        <section class="disciplinas">
+            <div class="conteudo-disciplinas">
+                <h1>Disciplinas</h1>
+                <div class="buttons">
+                    <button class="btn botao-card" onclick="mostrarCard('card-4ano')">4 Ano</button>
+                    <button class="btn botao-card" onclick="mostrarCard('card-5ano')">5 Ano</button>
                 </div>
-                <div class="image-content">
-                    <!-- Espaço reservado para infográfico, print ou outro tipo de imagem -->
-                    <img src="./img/img-livro-portifolio.png" alt="Imagem sobre o curso" class="img-livro"/>
+                <div class="cards-disciplinas" id="card-4ano">
+                    <div class="card">
+                        <p>Projeto Integrador I</p>
+                    </div>
+                    <div class="card">
+                        <p>Técnicas Avançadas de Banco de Dados Relacional e Não Relacional</p>
+                    </div>
+                    <div class="card">
+                        <p>Estrutura de Dados</p>
+                    </div>
+                    <div class="card">
+                        <p>Engenharia de Software</p>
+                    </div>
+                    <div class="card">
+                        <p>Interação Humano Computador</p>
+                    </div>
+                    <div class="card">
+                        <p>Técnicas Avançadas de Programação</p>
+                    </div>
+                    <div class="card">
+                        <p>Técnicas Avançadas de Programação Web e Mobile</p>
+                    </div>
+                    <div class="card">
+                        <p>Inteligência Corporativa e Modelos de Negócios na Era Digital</p>
+                    </div>
+                    <div class="card">
+                        <p>Gestão Ágil de Projetos de Software</p>
+                    </div>
+                    <div class="card">
+                        <p>Organização de Computadores e Sistemas Operacionais</p>
+                    </div>
+                    <div class="card">
+                        <p>Língua Inglesa I</p>
+                    </div>
+                    <div class="card">
+                        <p>Matemática Discreta</p>
+                    </div>
                 </div>
+                <!-- <div class="cards-disciplinas" id="card-5ano" style="display: none;">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div> -->
             </div>
         </section>
-
-        <hr class="section-divider" />
-
-        <section class="sobre-pessoal" id="pessoal">
-            <div class="container pessoal-section">
-                <div class="text-content">
-                    <h2>Mais Sobre Mim</h2>
-                    <p>Completei meu Ensino Médido e me formei Técnico em Desenvolvimento de Sistemas pela Etec Jales no ano de 2024. Possuo eventual conhecimento em frontend, porém é no backend que me sinto confortável. Gosto de me desafiar a resolver problemas complexos e trabalhar por trás dos panos em um sistema.</p>
-                </div>
-                <div class="image-content">
-                    <!-- Espaço para imagem sobre hobby, por exemplo uma montagem com foguetes ou algo geek -->
-                    <img src="./img/img-livro-portifolio.png" alt="Meus Hobbies" class="img-livro"/>
-                </div>
-            </div>
-        </section>
-
     </div>
 
     <footer>
@@ -89,14 +129,15 @@
             <div class="footer-info">
                 <h3>Instituição</h3>
                 <p>Faculdade de Tecnologia Prof. José Camargo - Fatec Jales</p>
-                <a href="https://www.fatecjales.edu.br" target="_blank" rel="noopener noreferrer">Site da Instituição</a>
+                <a href="https://www.fatecjales.edu.br" target="_blank" rel="noopener noreferrer">Site da
+                    Instituição</a>
             </div>
             <div class="footer-links">
                 <h4>Navegação</h4>
                 <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre Mim</a>
                 <a href="ano4.html">4º Ano</a>
                 <a href="ano5.html">5º Ano</a>
-                <a href="sobre.html">Sobre Mim</a>
                 <a href="contato.html">Contato</a>
             </div>
             <div class="footer-copy">
@@ -105,6 +146,7 @@
         </div>
     </footer>
     <script src="./js/header.js"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
