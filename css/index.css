@@ -78,6 +78,7 @@ div.inicio {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .container-sobre h1 {
@@ -167,6 +168,30 @@ div.inicio {
   background-color: #00ffff;
   color: #0d1117;
   font-weight: bold;
+}
+
+.habilidades {
+    width: 100%;
+    background-color: #161b22;
+}
+
+.habilidades img {
+    width: 150px;
+    height: 150px;
+}
+
+.habilidades h1 {
+    color: #00ffff;
+    text-align: center;
+}
+
+.habilidades .img-ajuste {
+    width: 300px;
+}
+
+.logos-habilidades {
+    display: flex;
+    justify-content: space-between;
 }
 
 @keyframes fadeIn {
