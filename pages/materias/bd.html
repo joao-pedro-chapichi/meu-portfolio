@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/materias.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <header id="header-page">
+        <div class="container">
+            <div class="logo">MEU PORTFÓLIO</div>
+            <div class="hamburger" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="menu">
+                <a href="../../index.html#header-page">Início</a>
+                <a href="../../index.html#pessoal">Sobre Mim</a>
+                <a href="../../index.html#disciplinas">4º Ano</a>
+                <a href="../../index.html#disciplinas">5º Ano</a>
+                <a href="../../index.html#contato">Contato</a>
+                <a href="https://github.com/joao-pedro-chapichi" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-chapichi-5080b7303/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-principal">
+        <div class="banner">
+            <div class="banner-conteudo">
+                <img src="https://cdn-icons-png.flaticon.com/128/9672/9672242.png" alt="Ícone Banco de Dados" />
+                <h1>Banco de Dados</h1>
+                <p>Aprendizados sobre Views, Procedures, Functions e Comandos DCL</p>
+            </div>
+        </div>
+
+        <section>
+            <h2>🧠 Sobre a Disciplina</h2>
+            <p>
+                A disciplina de <strong>Banco de Dados</strong> é fundamental para o desenvolvimento de sistemas,
+                pois trata da organização, manipulação e segurança dos dados armazenados. Nela, exploramos conceitos
+                avançados que facilitam o trabalho com bancos relacionais.
+            </p>
+            <p>
+                Durante o curso, aprendemos a usar recursos que otimizam consultas, automatizam processos e garantem a
+                integridade dos dados, essenciais para aplicações profissionais.
+            </p>
+        </section>
+
+        <section>
+            <h2>📋 Revisão de Consultas SELECT</h2>
+            <p>
+                Antes de avançar, fizemos uma revisão aprofundada dos comandos <code>SELECT</code>, que são a base para
+                buscar dados no banco. Essa revisão inclui:
+            </p>
+            <ul>
+                <li>Filtragem com <code>WHERE</code>;</li>
+                <li>Ordenação com <code>ORDER BY</code>;</li>
+                <li>Junção de tabelas (<code>JOIN</code>);</li>
+                <li>Uso de funções agregadas (<code>COUNT</code>, <code>SUM</code>, <code>AVG</code>, etc.);</li>
+                <li>Subconsultas e consultas aninhadas;</li>
+                <li>Alias para colunas e tabelas;</li>
+                <li>Limitação e paginação de resultados.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>👁️ Views</h2>
+            <p>
+                Views são consultas armazenadas que funcionam como tabelas virtuais, permitindo simplificar e
+                reutilizar consultas complexas.
+            </p>
+            <ul>
+                <li>Facilitam a leitura e manutenção do código SQL;</li>
+                <li>Podem ser usadas para restringir o acesso a dados sensíveis;</li>
+                <li>Atualizações em views dependem da complexidade da consulta original;</li>
+                <li>Podem melhorar a segurança e a organização do banco de dados.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>⚙️ Functions</h2>
+            <p>
+                Functions são rotinas que recebem parâmetros, executam operações e retornam um valor. São úteis para
+                cálculos e transformações reutilizáveis no banco.
+            </p>
+            <ul>
+                <li>Podem ser usadas em cláusulas <code>SELECT</code>, <code>WHERE</code> e outras;</li>
+                <li>Facilitam a modularização do código SQL;</li>
+                <li>Podem encapsular regras de negócio;</li>
+                <li>Devem ser usadas com cuidado para evitar impacto na performance.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🔧 Procedures</h2>
+            <p>
+                Procedures são blocos de código que executam ações, como inserções, atualizações e exclusões, podendo
+                conter lógica complexa e controle de fluxo.
+            </p>
+            <ul>
+                <li>Executam múltiplas operações em sequência;</li>
+                <li>Podem receber parâmetros para personalizar execuções;</li>
+                <li>Facilitam a automação de tarefas repetitivas;</li>
+                <li>Podem melhorar a segurança, evitando o acesso direto às tabelas.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🔐 Comandos DCL (Data Control Language)</h2>
+            <p>
+                Os comandos DCL são usados para controlar o acesso e permissões dos usuários no banco de dados, garantindo
+                a segurança das informações.
+            </p>
+            <ul>
+                <li><code>GRANT</code>: Concede permissões específicas a usuários ou grupos;</li>
+                <li><code>REVOKE</code>: Remove permissões concedidas anteriormente;</li>
+                <li>Esses comandos ajudam a definir quem pode ler, modificar ou administrar dados;</li>
+                <li>São essenciais para a política de segurança do banco.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Instituição</h3>
+                <p>Faculdade de Tecnologia Prof. José Camargo - Fatec Jales</p>
+                <a href="https://www.fatecjales.edu.br" target="_blank" rel="noopener noreferrer">Site da Instituição</a>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <a href="#header-page">Início</a>
+                <a href="#pessoal">Sobre Mim</a>
+                <a href="#disciplinas">4º Ano</a>
+                <a href="#disciplinas">5º Ano</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 Todos os direitos reservados. Desenvolvido por João Pedro Chapichi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/header.js"></script>
+    <script src="../../js/scripts.js"></script>
+</body>
+</html>

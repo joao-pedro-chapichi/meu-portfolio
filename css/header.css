@@ -7,7 +7,7 @@ header {
 header .container {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 20px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +26,7 @@ header .container {
   transform: none;
   pointer-events: auto;
   transition: all 0.3s ease-in-out;
+  align-items: center;
 }
 
 .menu a {
@@ -37,6 +38,10 @@ header .container {
   letter-spacing: 0.5px;
 }
 
+.menu a i {
+  font-size: 30px;
+  color: white;
+}
 
 /* Botão hamburguer (escondido por padrão) */
 .hamburger {

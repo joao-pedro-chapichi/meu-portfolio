@@ -165,34 +165,122 @@ div.inicio {
 }
 
 .btn.ativo {
-  background-color: #00ffff;
-  color: #0d1117;
-  font-weight: bold;
+    background-color: #00ffff;
+    color: #0d1117;
+    font-weight: bold;
 }
 
 .habilidades {
     width: 100%;
     background-color: #161b22;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-habilidades {
+    width: 1500px;
+    margin: 0 auto;
 }
 
 .habilidades img {
     width: 150px;
     height: 150px;
+    filter: grayscale(100%);
 }
 
 .habilidades h1 {
+    font-size: 2.5rem;
     color: #00ffff;
     text-align: center;
 }
 
 .habilidades .img-ajuste {
-    width: 300px;
+    width: 150px;
 }
 
 .logos-habilidades {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
+
+.contato {
+    background-color: #0d1117;
+    padding: 60px 20px;
+}
+
+.container-contato {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-contato,
+.form-contato {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info-contato h2,
+.form-contato h2 {
+    margin-bottom: 20px;
+    color: #00ffff;
+}
+
+.info-contato p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.info-contato i {
+    margin-right: 10px;
+    color: #fff;
+    /* cor dos ícones */
+}
+
+.info-contato a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.info-contato a:hover {
+    text-decoration: underline;
+}
+
+.form-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contato input,
+.form-contato textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #161b22;
+    caret-color: white;
+    color: #fff;
+}
+
+.form-contato button {
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-contato input::placeholder,textarea::placeholder {
+    color: white;
+}
+
 
 @keyframes fadeIn {
     from {
