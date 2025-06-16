@@ -27,6 +27,15 @@ div.inicio {
     gap: 40px;
 }
 
+.img-inicial {
+    width: 400px;
+
+}
+
+.img-pessoal {
+    width: 300px;
+}
+
 .inicio img {
     border-radius: 10px;
 }
@@ -74,7 +83,7 @@ div.inicio {
 .container-sobre {
     margin: 0 auto;
     max-width: 1500px;
-    min-height: 670px;
+    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +108,7 @@ div.inicio {
 }
 
 .conteudo-sobre p {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .conteudo-sobre .texto-sobre {
@@ -307,13 +316,32 @@ html {
 @media (max-width: 1000px) {
     .card {
         flex: 1 1 calc(50% - 1rem);
-        /* 2 por linha */
     }
 }
 
 @media (max-width: 600px) {
     .card {
         flex: 1 1 100%;
-        /* 1 por linha */
+    }
+
+    div.inicio {
+        flex-direction: column;
+    }
+
+    .img-inicial {
+        width: 300px;
+    }
+
+    .divisor-imagem {
+        width: 380px;
+        height: 2px;
+    }
+
+    .conteudo-sobre {
+        flex-direction: column;
+    }
+
+    .logos-habilidades {
+        flex-direction: column;
     }
 }
